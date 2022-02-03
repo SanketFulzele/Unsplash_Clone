@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Unsplash</title>
+    <link rel="stylesheet" href="unsplash.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200;300;400;600;700;900&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/7437be3b71.js" crossorigin="anonymous"></script>
+    <script src="./unsplash.js" defer></script>
+</head>
+<body>
+    
+    <header class="header-section">
+        <div class="header-content">
+            <h1 class="logo"> Splash </h1>
+            <p class="sub-line"> The best royalty free images that you can find here </p>
+            
+            <form action="search.html">
+                <input type="text" autocomplete="off" name="search" class="search-box" placeholder="serch image">
+                <button class="search-btn" type="submit"> search </button>
+            </form>
+        </div>
+    </header>
+
+<div class="image-popup hide">
+    <button class="close-btn"> <i class="fas fa-times-circle"></i> </button>
+    <a href="#" class="download-btn"> download image </a>
+    <img src="" class="large-img" alt="">
+
+    <button class="controls pre-btn"> <img src="./img/pre.png" alt=""> </button>
+    <button class="controls nxt-btn"> <img src="./img/nxt.png" alt=""> </button>
+</div>
+
+
+<section class="gallery">
+    <!-- <img src="./img/pic0.jpg" class="gallery-img" alt=""> -->
+</section>
+
+
+
+</body>
+</html>
